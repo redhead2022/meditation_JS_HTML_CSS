@@ -1,0 +1,39 @@
+#container-countdown {
+    display: flex;
+    justify-content: center;
+}
+
+#countdown {
+    font-size: 60px;
+    font-family: 'Roboto Serif', serif;
+    margin-top: 100px;
+    background: linear-gradient(to right, #e9f7c3, #f0f3f5);
+    padding: 30px;
+    border-radius: 20px;
+}
+
+#myVideo {
+    position: fixed;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -10;
+}
+
+#myButton {
+    display: none;
+}
+
+@media all and (max-width: 500px) {
+    
+#myButton {
+    font-size: 30px;
+    font-family: 'Roboto Serif', serif;
+    background: linear-gradient(to right, #e9f7c3, #f0f3f5);
+    display: block;
+    margin: 0 auto;
+    border-radius: 20px;
+  padding: 15px;
+}
+}
